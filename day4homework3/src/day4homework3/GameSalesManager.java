@@ -32,6 +32,7 @@ public class GameSalesManager {
 		if(checkData=="") {
 			GameSales GameSales=new GameSales(dataId, game, player, campaign,gameCredit);
 			gameSaless[dataId]=GameSales;
+			player.setCreditValue(player.getCreditValue()-gameCredit);
 			checkData=player.getNickName()+" Kullanýcýsýna "+game.getName()+" Oyunu"+gameCredit+"Krediye Satýldý.";
 			if(campaign!=null) {
 				if(campaign.getDiscountRate()>0) checkData=checkData+" "+campaign.getName()+" Kampanyasý ile %"+campaign.getDiscountRate()+" Uygulandý";

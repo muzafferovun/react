@@ -12,8 +12,8 @@ public class Main {
 		playerManager.addPlayers(players, "proGamer", "Gamer99","1234","Ahmet", "Yýlmaz", "15487545521", 1988,loggerManager.log("Player","add") );
 		playerManager.addPlayers(players, "Tsubasa", "tsubase23","42332","Cumali", "Aydýn", "HatalýTC", 2005,loggerManager.log("Player","add") );
 		playerManager.addPlayers(players, "proGamer2", "2Gamer99","1234","Ahmet", "Yýlmaz", "54874521458", 1978,loggerManager.log("Player","add") );
-		playerManager.addPlayers(players, "proGamer3", "3Gamer99","1234","Emrah", "Bayram", "25417895458", 1983,loggerManager.log("Player","add") );
-		playerManager.addPlayers(players, "proGamer4", "4Gamer99","1234","Harun", "Sýnmaz", "15487545521", 2002,loggerManager.log("Player","add") );
+		playerManager.addPlayers(players, "proGamer3", "3Gamer99","1234","Ali", "Bayram", "25417895458", 1983,loggerManager.log("Player","add") );
+		playerManager.addPlayers(players, "proGamer4", "4Gamer99","1234","Veli", "Sýnmaz", "15487545521", 2002,loggerManager.log("Player","add") );
 		playerManager.creditLoad(players, 1,154,loggerManager.log("Player","creditLoad"));
 		playerManager.creditLoad(players, 2,15,loggerManager.log("Player","creditLoad"));
 		playerManager.creditLoad(players, 40,86,loggerManager.log("Player","creditLoad"));
